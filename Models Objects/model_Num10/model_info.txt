@@ -1,0 +1,20 @@
+MODEL INFO: 
+Image resolution: 224x224
+Model optimizer, learning rate: Adam, 0.00100
+Model loss function: mean_squared_error
+Number of epochs and batch sizes: <zip object at 0x0000000013147608>
+Model structure: Model: "model"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_1 (InputLayer)         [(None, 224, 224, 1)]     0         
+_________________________________________________________________
+flatten (Flatten)            (None, 50176)             0         
+_________________________________________________________________
+dense (Dense)                (None, 1)                 50177     
+=================================================================
+Total params: 50,177
+Trainable params: 50,177
+Non-trainable params: 0
+_________________________________________________________________
+Test dataset evaluation: [('loss', 81.39549255371094), ('mean_absolute_error', 7.9600105)]
